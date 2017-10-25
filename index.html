@@ -250,11 +250,13 @@ function move() {
     </div><br>
     <p>Lets get in touch. Send me a message:</p>
 
-    <form action="/action_page.php" target="_blank">
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+    <form action="contact.php" method="post">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="First_name" name="firstname" required></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Last_name"  name="lastname"  required></p>
+      <p><input class="w3-input w3-padding-16" type="email" placeholder="Email"     name="Email" required></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Contact_number" name="Contact_number" required></p>
+	  <p><input class="w3-input w3-padding-16" type="text" placeholder="Message..." name="msg" required></p>
+	  
       <p>
         <button class="w3-button w3-light-grey w3-padding-large" type="submit">
           <i class="fa fa-paper-plane"></i> SEND MESSAGE
