@@ -238,13 +238,14 @@ function move() {
     </div><br>
     <p>Lets get in touch. Send me a message:</p>
 
-    <form action="/action_page.php" target="_blank">
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+    <form action="contact.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="First_name" required name="firstname"></p>
+	  <p><input class="w3-input w3-padding-16" type="text" placeholder="Last_name" required name="lastname"></p>
+      <p><input class="w3-input w3-padding-16" type="email" placeholder="Email" required name="Email"></p>
+	  <p><input class="w3-input w3-padding-16" type="text" placeholder="Contact_number" required name="Contact_number"></p>
+      <textarea class="w3-input" type="text" placeholder="Message..." name="msg" required></textarea>
       <p>
-        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+        <button class="w3-button w3-light-grey w3-padding-large" style="margin-top:10px" type="submit">
           <i class="fa fa-paper-plane"></i> SEND MESSAGE
         </button>
       </p>
@@ -255,7 +256,7 @@ function move() {
     <!-- Footer -->
   <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
     <a href="https://www.instagram.com/steadypixx/" class="fa fa-instagram w3-hover-opacity"></a>
-    <p class="w3-medium">Powered by <a class="w3-hover-text-green">Tech Enterprises</a></p>
+    <p class="w3-medium">Powered by <a class="w3-hover-text-green">Conglomerate Creations</a></p>
   <!-- End footer -->
   </footer>
 
