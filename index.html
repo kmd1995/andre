@@ -146,7 +146,7 @@ function move() {
           <li class="w3-padding-16">Mail Support</li>
 		  <li class="w3-padding-16">Web Marketing</li>
           <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
+            <button class="w3-button w3-white w3-padding-large w3-hover-black"><a href="#contact">Sign Up</a></button>
           </li>
         </ul>
       </div>
@@ -160,7 +160,7 @@ function move() {
 		  <li class="w3-padding-16">Consulting</li>
           <li class="w3-padding-16">Endless Support</li>
           <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
+            <button class="w3-button w3-white w3-padding-large w3-hover-black"><a href="#contact">Sign Up</a></button>
           </li>
         </ul>
       </div>
@@ -202,11 +202,11 @@ function move() {
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
       <div class="item active">
-        <img src="work.JPG" alt="Girl1" style="margin:auto; width:25%;">
+        <img src="work.jpg" alt="Girl1" style="margin:auto; width:25%;">
       </div>
 
       <div class="item">
-        <img src="littlegirl.JPG" alt="artwork" style="margin:auto; width:25%;">
+        <img src="littlegirl.jpg" alt="artwork" style="margin:auto; width:25%;">
       </div>
     
       
@@ -238,14 +238,13 @@ function move() {
     </div><br>
     <p>Lets get in touch. Send me a message:</p>
 
-    <form action="contact.php" method="post">
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="First_name" name="firstname" required></p>
-	  <p><input class="w3-input w3-padding-16" type="text" placeholder="Last_name" name="lastname" required></p>
-      <p><input class="w3-input w3-padding-16" type="email" placeholder="Email" name="Email" required></p>
-	  <p><input class="w3-input w3-padding-16" type="text" placeholder="Contact_number" name="Contact_number" required></p>
-      <textarea class="w3-input" type="text" placeholder="Message..." name="msg" required></textarea>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
       <p>
-        <button class="w3-button w3-light-grey w3-padding-large" style="margin-top:10px" type="submit">
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
           <i class="fa fa-paper-plane"></i> SEND MESSAGE
         </button>
       </p>
@@ -254,9 +253,11 @@ function move() {
   </div>
   
     <!-- Footer -->
-  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
-    <a href="https://www.instagram.com/steadypixx/" class="fa fa-instagram w3-hover-opacity"></a>
+  <footer class="w3-content w3-center w3-padding-64 w3-text-grey w3-xlarge">
+    
     <p class="w3-medium">Powered by <a class="w3-hover-text-green">Conglomerate Creations</a></p>
+	<p class="w3-small"> All Rights Reserved ~ v4.1.6472.15</p>
+	<a href="https://www.instagram.com/steadypixx/" class="fa fa-instagram w3-hover-opacity"></a>
   <!-- End footer -->
   </footer>
 
